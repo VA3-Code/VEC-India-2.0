@@ -6,9 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postcss:build": "postcss style/style.css --dir style"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-font-magician": "^3.0.0",
     "vite": "^3.2.0"
   }
 }
